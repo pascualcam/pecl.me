@@ -60,15 +60,21 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       </ul>
     </article>
 
-     <!-- Education -->
-     <article class="flex flex-col gap-8">
+    <!-- Projects -->
+    <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Education</h3>
-      </header>      
-      <ul>
-        <li><a href="https://stanford.edu">MS @Stanford University</a> | 2022</li>
-        <li><a href="https://nmsu.edu">BS @New Mexico State University</a> | 2020</li>
-      </ul>
+        <h3 class="text-lg text-neutral-100">
+          Selected projects ({projects.length})
+        </h3>
+      </header>
+      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
+
+      <section class="flex flex-col gap-4">
+        {
+          projects.length !== 0 &&
+            projects.map((project) => <ProjectCard {...project} />)
+        }
+      </section>
     </article>
 
     <!-- Posts -->
@@ -96,21 +102,15 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       </section>
     </article>
 
-    <!-- Projects -->
+    <!-- Education -->
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
-          Selected projects ({projects.length})
-        </h3>
-      </header>
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
-
-      <section class="flex flex-col gap-4">
-        {
-          projects.length !== 0 &&
-            projects.map((project) => <ProjectCard {...project} />)
-        }
-      </section>
+        <h3 class="text-lg text-neutral-100">Education</h3>
+      </header>      
+      <ul>
+        <li><a href="https://stanford.edu">MS @Stanford University</a> | 2022</li>
+        <li><a href="https://nmsu.edu">BS @New Mexico State University</a> | 2020</li>
+      </ul>
     </article>
 
     <!-- Contact -->

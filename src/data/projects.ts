@@ -8,32 +8,36 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "Family Tree Generator",
-    techs: ["SQLite", "JavaScript", "Java", "React"],
+    techs: ["Python", "SQLAlchemy"],
     link: "/",
     isComingSoon: true,
   },
   {
-    title: "ML at Stanford",
+    title: "ML - Stanford",
     techs: ["Pandas", "Jupyter"],
     link: "https://github.com/pascualcam",
   },
   {
-    title: "World Cup Data",
+    title: "Historical World Cup",
     techs: ["Python"],
     link: "https://github.com/pascualcam",
     isComingSoon: true,
   },
   {
     title: "Tour de France",
-    techs: ["Python", "Jupyter", "Pandas"],
-    link: "https://github.com/pascualcam",
+    techs: ["Python"],
+    link: "https://github.com/pascualcam/tour-de-tour",
     isComingSoon: true,
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: "Personal portfolio",
+    techs: ["TailwindCSS", "TypeScript"],
+    link: "https://pascualcam.com",
+  },
+  {
+    title: "Algorithms from scratch",
+    techs: ["Python", "C++", "C", "MATLAB"],
+    link: "https://github.com/pascualcam/algorithms",
   },
 ];
 
