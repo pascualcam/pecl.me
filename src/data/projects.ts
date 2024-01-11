@@ -31,7 +31,7 @@ const projects: Project[] = [
   },
   {
     title: "Algorithms from scratch",
-    techs: ["Python", "C++", "C", "MATLAB"],
+    techs: ["Python", "Java", "C", "MATLAB"],
     link: "https://github.com/pascualcam/algorithms",
   },
   {
