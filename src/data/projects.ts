@@ -26,7 +26,7 @@ const projects: Project[] = [
   {
     title: "Tour de France",
     techs: ["Python", "Jupyter", "Pandas"],
-    link: "/",
+    link: "https://github.com/pascualcam",
     isComingSoon: true,
   },
   {
