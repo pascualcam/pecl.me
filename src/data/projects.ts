@@ -30,14 +30,14 @@ const projects: Project[] = [
     isComingSoon: true,
   },
   {
-    title: "Personal portfolio",
-    techs: ["TailwindCSS", "TypeScript"],
-    link: "https://pascualcam.com",
-  },
-  {
     title: "Algorithms from scratch",
     techs: ["Python", "C++", "C", "MATLAB"],
     link: "https://github.com/pascualcam/algorithms",
+  },
+  {
+    title: "Personal portfolio",
+    techs: ["TailwindCSS", "TypeScript"],
+    link: "https://pascualcam.com",
   },
 ];
 
