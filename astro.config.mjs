@@ -9,6 +9,8 @@ import { SITE_URL } from "./src/data/config";
 export default defineConfig({
   integrations: [tailwind(), sitemap(), robotsTxt()],
   site: SITE_URL,
+  // site: 'https://pascualcam.github.io',
+  // base: '/pascualcam.github.io',
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {
