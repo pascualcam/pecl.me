@@ -85,6 +85,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
 
+      <p>Will be adding short notes soon :)<p></p>
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         {
           posts.length !== 0 &&
@@ -122,7 +123,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         Email <Link
           href={`mailto:${presentation.mail}`}
           label={presentation.mail}
-        /> or follow me on my socials below.
+        /> or follow me below...
       </p>
 
       <SocialLinks />

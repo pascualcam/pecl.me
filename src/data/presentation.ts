@@ -13,10 +13,10 @@ type Presentation = {
 
 const presentation: Presentation = {
   mail: "me@pascualcam.com",
-  title: "Hi, I’m Pascual 👋",
+  title: "Hi, I’m Pascual 😁",
   // profile: "/profile.webp",
   description:
-    "Hola, I'm a *Mexican* engineer and previous founder with over *3 years* of experience in data. Outside of work I love to ride bikes around the Bay Area and read books.",
+    "Hola, I'm an *engineer* and *previous founder* with *3 years* of experience in data. I love road cycling and running around the Bay Area and reading books.",
   socials: [
     {
       label: "X",

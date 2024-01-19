@@ -1,9 +1,9 @@
 ---
-title: "New beginnings"
+title: "My career"
 publishedAt: 2024-01-11
-description: "A new start"
+description: "Coming soon"
 slug: "new-beginnings"
 isPublish: true
 ---
 
-#### Post coming soon!
+#### Coming soon!

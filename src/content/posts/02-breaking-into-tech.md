@@ -1,9 +1,9 @@
 ---
-title: "Breaking into tech"
+title: "Tech"
 publishedAt: 2024-01-11
-description: "How I got into tech, from an unconventional background"
+description: "Coming soon"
 slug: "breaking-into-tech"
 isPublish: true
 ---
 
-#### Post coming soon!
+#### Coming soon!
