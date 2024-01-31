@@ -13,7 +13,7 @@ const projects: Project[] = [
     isComingSoon: true,
   },
   {
-    title: "ML - Stanford",
+    title: "ML at Stanford",
     techs: ["Pandas", "Jupyter"],
     link: "https://github.com/pascualcam",
   },
@@ -30,12 +30,12 @@ const projects: Project[] = [
     isComingSoon: true,
   },
   {
-    title: "Algorithms from scratch",
+    title: "Algorithms",
     techs: ["Python", "Java", "C", "MATLAB"],
     link: "https://github.com/pascualcam/algorithms",
   },
   {
-    title: "Personal portfolio",
+    title: "This website",
     techs: ["TailwindCSS", "TypeScript"],
     link: "https://pascualcam.com",
   },
