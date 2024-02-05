@@ -8,7 +8,7 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "Kuwi - a family tree generator",
-    techs: ["Python", "SQLAlchemy"],
+    techs: ["Python", "SQLAlchemy", "PostgreSQL"],
     link: "/",
     isComingSoon: true,
   },
