@@ -5,5 +5,3 @@ description: "Coming soon"
 slug: "intro-post"
 isPublish: true
 ---
-
-#### Coming soon!
