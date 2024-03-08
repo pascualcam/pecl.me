@@ -55,7 +55,8 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         <h3 class="text-lg text-neutral-100">Experience</h3>
       </header>
       <ul>      
-        <li><a href="https://e2eanalytic.com">E2E Analytics</a> | Data Scientist and Developer | 2022 - Present</li>
+        <li><a href="https://withorb.com">Orb | Software Engineer | 2024 - Present</a></li>
+        <li><a href="https://e2eanalytic.com">E2E Analytics</a> | Data Scientist and Developer | 2022 - 2024</li>
         <li><a href="">Vita Health</a> | Founder | 2019 - 2022</li>
       </ul>
     </article>
@@ -67,7 +68,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
           Selected projects ({projects.length})
         </h3>
       </header>
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
+      {projects.length === 0 && <p>Oops...^^^^^</p>}
 
       <section class="flex flex-col gap-4">
         {
@@ -83,7 +84,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         <h3 class="text-lg text-neutral-100">Latest writings</h3>
         <Link href="/posts" label="See all writings" isUnderline target="_self" />
       </header>
-      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+      {posts.length === 0 && <p>Soon 👀...</p>}
 
       <p>Will be adding short notes soon :)<p></p>
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
