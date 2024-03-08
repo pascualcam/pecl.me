@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "Hi, I’m Pascual 😁",
   // profile: "/profile.webp",
   description:
-    "Hola, I'm a *software engineer* at Orb, I previously *founded* a healthcare startup and I have *3 years* of experience in data. On the side, I write code for fun. I love road cycling and running around the Bay Area and reading books.",
+    "Hola, I'm a *software engineer* at Orb, I previously *founded* a health tech startup and have *3 years* of experience in data. On the side, I write code for fun. I love road cycling and running around the Bay Area and reading books.",
   socials: [
     {
       label: "X",
