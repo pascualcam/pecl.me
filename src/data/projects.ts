@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     title: "Kuwi - a family tree generator",
     techs: ["Python", "SQLAlchemy", "PostgreSQL"],
-    link: "/",
+    link: "https://kuwiapp.com",
     isComingSoon: true,
   },
   {
