@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # drafts
 src/content/drafts
+
+# pages
+src/
