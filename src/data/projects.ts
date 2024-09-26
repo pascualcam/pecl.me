@@ -12,6 +12,16 @@ const projects: Project[] = [
         link: "https://kuwiapp.com",
     },
     {
+        title: "Wild Oasis - hotel website",
+        techs: ["React", "Next.js", "TailwindCSS"],
+        link: "https://wild-oasis-pascualcam.vercel.app/",
+    },
+    {
+        title: "Wild Oasis - hotel admin",
+        techs: ["React", "Next.js", "TailwindCSS"],
+        link: "https://wild-oasis-admin-pascualcam.vercel.app/login",
+    },
+    {
         title: "ML at Stanford",
         techs: ["Pandas", "Jupyter"],
         link: "https://github.com/pascualcam",
