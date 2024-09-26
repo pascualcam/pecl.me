@@ -19,7 +19,7 @@ const projects: Project[] = [
     {
         title: "Wild Oasis - hotel admin",
         techs: ["React", "Next.js", "TailwindCSS"],
-        link: "https://wild-oasis-admin-pascualcam.vercel.app/login",
+        link: "https://wild-oasis-admin-pascualcam.vercel.app/",
     },
     {
         title: "ML at Stanford",
